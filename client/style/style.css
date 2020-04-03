@@ -10,3 +10,88 @@
     display: flex;
     align-items: center;
 }
+.list-container{
+    width: 590px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    top:-10px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.list-heading{
+    text-align: center;
+    border: 1px black;
+    height: 500px;
+    margin: auto;
+}
+.list-heading h1{
+    color:rgb(54, 195, 241);
+    font-family: 'Gotu', sans-serif;
+    
+
+}
+.container-list{
+    box-shadow: 10px 5px 5px lightseagreen;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Gotu', sans-serif;
+
+}
+.Create-song{
+    margin: auto;
+    top:40px;
+    color: rgb(46, 97, 173);
+    font-family: 'Gotu', sans-serif;
+    box-shadow: 10px 5px 5px lightseagreen;
+  
+    
+}
+.Backbtn{
+   font-size: large;
+   position: relative;
+   top:20px;
+   left: 8px;
+   background-color: lightcyan;
+   padding: 4px;
+   border-radius: 7px;
+
+}
+.container-lyrics{
+ margin:auto;
+ font-family: 'Gotu', sans-serif;
+padding: 40px;
+
+}
+.container-lyrics h3{
+    margin-top: 40px;
+}
+.Create-song-container{
+    margin: auto;
+    position: relative;
+    width: 800px;
+    top:90px;
+    padding: 5px;
+   
+}
+.Create-song-container input{
+    margin: auto;
+}
+.lyric-list{
+
+    box-shadow: 10px 5px 5px lightseagreen;
+     width: 700px;
+}
+.lyric-input{
+    box-shadow: 10px 5px 5px lightseagreen;
+    width: 700px;
+    color:rebeccapurple;
+
+
+}
+.lyric-input label{
+    font-size: 20px;
+   margin: auto;
+   position: relative;
+   top:9px;
+}

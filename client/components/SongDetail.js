@@ -12,8 +12,8 @@ export class SongDetail extends Component {
 
 
         return (
-            <div>
-                <Link to="/">Back</Link>
+            <div className="container-lyrics">
+                <Link to="/" className="Backbtn">Back</Link>
                 <h3>{song.title}</h3>
                 <LyricList lyrics={song.lyrics}/>
                 <LyricCreate 

@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
     "apollo-client": "^0.8.1",
     "axios": "^0.19.2",
     "babel-core": "^6.22.1",

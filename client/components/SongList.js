@@ -3,6 +3,7 @@ import gql from 'graphql-tag';
 import {graphql} from 'react-apollo';
 import {Link} from 'react-router';
 import query from '../queries/FetchSong'
+
 class SongList extends Component {
  onSongDelete(id){
      this.props.mutate({variables: {id}})
@@ -25,9 +26,10 @@ class SongList extends Component {
     });
 }
     render() { 
-        console.log(this.props)
-        return (
-            <div> < ul className="collection">
+        
+        return ( <div className="container-list"><div className="list-heading">
+            <h1 >List of Songs</h1>
+            <div className="list-container"> < ul className="collection">
                <h6> {this.renderSongs()}
              
                 </h6> 
@@ -40,7 +42,7 @@ class SongList extends Component {
             >
                 <i className="material-icon">+</i>
             </Link>
-            </div>
+            </div></div></div>
         )
     }
 }

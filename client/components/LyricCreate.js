@@ -22,7 +22,7 @@ onSubmit(event){
 
     render() {
         return (
-            <div>
+            <div className="lyric-input">
                 <form onSubmit={this.onSubmit.bind(this)}>
                     <label>Add a Lyric</label>
                     <input 

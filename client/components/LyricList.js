@@ -34,7 +34,7 @@ onLike(id,likes){
     }
     render() {
         return (
-            <div>
+            <div className="lyric-list">
                 <ul className="collection">
                     {this.renderLyrics()}
                 </ul>

@@ -22,8 +22,9 @@ onSubmit(event){
 
     render() {
         return (
-            <div>
-                <Link to="/">Back</Link>
+            <div className="Create-song-container">
+            <div className="Create-song">
+                <Link to="/" className="Backbtn">Back</Link>
                 <h1>Create New song</h1>
                 <form onSubmit={this.onSubmit.bind(this)}>
                     <label>Song Title:</label>
@@ -32,7 +33,7 @@ onSubmit(event){
                     value={this.state.title}
                     />
                 </form>
-            </div>
+            </div></div>
         )
     }
 }
